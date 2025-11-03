@@ -1,21 +1,31 @@
 # gina-first-repo
+
 Learning and practicing version control!
 
-More content.
+## Setup
 
-Adding this content using the VS Code Text editor (locally).
-# My First Repo!
+Clone the repo to download it from GitHub.
 
-This is the README.md file. It uses the markdown language.
+Navigate to the repo using the command line
 
-Here is a list:
+'''sh
+cd ~/Desktop/my-first-repo-fall-2025
+'''
 
-  + Item 1
-  + Item 2
-  + Item 3
+## Usage
 
-For more information about Markdown syntax, see the [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/).
+Example script:
 
-This is a new line in the README file
+'''sh
+python app/my_script.py
+''' 
 
-More updates.
+Game of rock, paper, scissors:
+
+
+'''sh
+python app/rps.py
+
+#alternative "modular style" command:
+python -m app.rps
+'''
